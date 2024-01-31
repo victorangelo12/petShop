@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;   
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -15,21 +15,21 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 80px 24px 80px;
+    padding: 24px 80px 24px 80px;  /*cima , direita esquerda, baixo*/
     
 }
 
 header nav a {
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 600;  /*peso da fonte*/
     padding: 32px;
-    text-decoration: none;
+    text-decoration: none;  /*tira o sublinhado*/
 }
 
 #inicio{
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 32px;  /*espaçamento*/
     padding: 24px 80px 128px 80px;
     position: relative;
     
@@ -59,7 +59,7 @@ h2{
     background-color: transparent;
     color: #FF725E;
     padding: 16px 32px;
-    text-underline-offset: 4px;
+    text-underline-offset: 4px;   /*da um espaçamento no sublinhado*/
     
 }
 
@@ -70,7 +70,7 @@ h2{
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: -10;
+    z-index: -10;  /*deixa a camada pra baixo*/
 }
 
 #clinica{
